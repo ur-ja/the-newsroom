@@ -6,81 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Newsroom</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <h1>The Newsroom</h1>
-    <div class="content">
-      <div class="card">
-        <div>
-          <h2 class="title">
-            California warns of possible oversight of Tesla tests
-          </h2>
-          <p class="author">by Science</p>
-        </div>
-        <div>
-          <p class="description">
-            California has informed Tesla it is considering stricter regulation
-            the electric carmaker's driving assistance tools currently being
-            tested on public roads, following videos posted online of disturbing
-            episodes.
-          </p>
-          <button class="btn">Read More</button>
-        </div>
-      </div>
-
-      <div class="card">
-        <div>
-          <h2 class="title">
-            California warns of possible oversight of Tesla tests
-          </h2>
-          <p class="author">by Science</p>
-        </div>
-        <div>
-          <p class="description">
-            California has informed Tesla it is considering stricter regulation
-            the electric carmaker's driving assistance tools currently being
-            tested on public roads, following videos posted online of disturbing
-            episodes.
-          </p>
-          <button class="btn">Read More</button>
-        </div>
-      </div>
-
-      <div class="card">
-        <div>
-          <h2 class="title">
-            California warns of possible oversight of Tesla tests
-          </h2>
-          <p class="author">by Science</p>
-        </div>
-        <div>
-          <p class="description">
-            California has informed Tesla it is considering stricter regulation
-            the electric carmaker's driving assistance tools currently being
-            tested on public roads, following videos posted online of disturbing
-            episodes.
-          </p>
-          <button class="btn">Read More</button>
-        </div>
-      </div>
-
-      <div class="card">
-        <div>
-          <h2 class="title">
-            California warns of possible oversight of Tesla tests
-          </h2>
-          <p class="author">by Science</p>
-        </div>
-        <div>
-          <p class="description">
-            California has informed Tesla it is considering stricter regulation
-            the electric carmaker's driving assistance tools currently being
-            tested on public roads, following videos posted online of disturbing
-            episodes.
-          </p>
-          <button class="btn">Read More</button>
-        </div>
-      </div>
+    <div class="head">
+      <h1>The Newsroom</h1>
+      <select class="dropdown" name="news">
+        <option value="" disabled selected>Select category..</option>
+        <option value="business">Business</option>
+        <option value="entertainment">Entertainment</option>
+        <option value="general" selected>General</option>
+        <option value="health">Health</option>
+        <option value="sports">Sports</option>
+        <option value="science">Science</option>
+        <option value="Technology">Technology</option>
+      </select>
     </div>
+    <div class="content"></div>
   </body>
 </html>
